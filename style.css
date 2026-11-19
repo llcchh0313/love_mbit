@@ -18,3 +18,10 @@ button,input{font:inherit}button{cursor:pointer}button:focus-visible,input:focus
 
 .brand{text-decoration:none}
 .qr-area{background:#fff;border-radius:14px;display:inline-block;padding:12px;margin-top:18px;max-width:100%}.qr-area canvas{display:block;max-width:100%;height:auto}
+
+/* 메인 화면의 관리자 진입 탭 (로그인은 admin.html에서 수행) */
+.header-nav{display:flex;align-items:center;justify-content:flex-end;gap:18px;min-width:0}
+.admin-entry{display:inline-flex;align-items:center;justify-content:center;gap:5px;min-height:39px;white-space:nowrap;padding:8px 15px;border:1px solid #665369;border-radius:11px;background:#322839;color:#f9d1e2;text-decoration:none;font-size:13px;font-weight:800;transition:background .15s,border-color .15s}
+.admin-entry:hover{background:#473347;border-color:#eea5c2}
+.admin-entry:focus-visible{outline:3px solid #f9bfd2;outline-offset:3px}
+@media(max-width:600px){.header-nav{gap:8px}.header-nav .header-label{display:none}.admin-entry{min-height:38px;padding:7px 11px;font-size:12px}}
