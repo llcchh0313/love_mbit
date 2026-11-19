@@ -1,23 +1,13 @@
 <!doctype html>
-<html lang="ko">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="theme-color" content="#15131e" />
-  <meta name="description" content="40개의 연애 상황 중 무작위 20개를 골라 알아보는 나의 연애 가치관" />
-  <title>RVT | 우리는 왜 다르게 생각할까?</title>
-  <link rel="stylesheet" href="style.css" />
-</head>
-<body>
-  <div class="app-shell">
-    <header class="header">
-      <button id="home-link" class="brand" type="button" aria-label="시작 화면으로">♡ <span>RVT</span></button>
-      <span class="header-label">RELATIONSHIP VALUES TEST</span>
-    </header>
-    <main id="app" aria-live="polite"></main>
-    <footer class="footer">이 테스트는 발표를 위해 만든 연애 가치관 탐색 도구이며, 검증된 심리 진단이나 궁합 예측이 아닙니다.</footer>
-  </div>
-  <script src="questions.js"></script>
-  <script src="script.js"></script>
-</body>
-</html>
+<html lang="ko"><head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#15131e"><meta name="description" content="20개의 연애 상황에 답하고 나의 가치관을 탐색해 보세요.">
+  <title>RVT | 우리는 왜 다르게 생각할까?</title><link rel="stylesheet" href="style.css">
+</head><body><div class="app-shell">
+  <header class="header"><button id="home-link" class="brand" type="button">♡ RVT</button><span class="header-label">RELATIONSHIP VALUES TEST</span></header>
+  <main id="app" aria-live="polite"></main>
+  <footer class="footer">RVT는 수업 발표용 가치관 탐색 도구이며, 심리 진단 또는 연인 간 궁합 판정이 아닙니다.</footer>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script src="config.js"></script><script src="questions.js"></script><script src="shared.js"></script><script src="script.js"></script>
+</body></html>
